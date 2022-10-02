@@ -1,0 +1,26 @@
+3 Add functionality that allows admin account to add courses needing TA positions
+    Display every course needing TA's
+    Let Admin delete course
+    Let Admin add course
+    Let Admin submit/save updated course list
+
+    2 function => grabbing info, saving info
+
+4 Add functionality that allows professor account to add job descriptions to their assigned courses
+    Find which courses are assigned for the coresponding professor
+    Allow professor to add formatted job descriptions
+    Send job description to firebase
+
+    2 function => grabbing info, saving info
+
+5 Login
+    Admin account is hardcoded
+    Sign in page where admin account can create email and password user
+    Login page where professor/user can log in
+
+
+Create admin login, professor login
+Allow admin accounts to create 
+Create admin navbar
+
+Add functionality that allows the admin to add courses needing TA positions

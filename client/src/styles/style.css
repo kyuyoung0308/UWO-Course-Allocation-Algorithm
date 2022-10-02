@@ -1,0 +1,161 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #5b6993;
+}
+
+button {
+  font-size: 20px;
+}
+
+input {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.show {
+  display: inline-block !important;
+}
+
+.navbar {
+  background-color: #FFF;
+  padding: 20px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .nav-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .nav-body p a {
+  all: unset;
+  padding: 0 15px;
+  color: #000;
+}
+
+.navbar .nav-body p:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.pl-50 {
+  padding-left: 50px;
+}
+
+.matchTA {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.matchTA .box {
+  max-height: 55vh !important;
+  overflow-y: scroll;
+  border-radius: 3px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 50px 100px;
+  -webkit-filter: drop-shadow(5px 3px 7px #333333);
+          filter: drop-shadow(5px 3px 7px #333333);
+}
+
+.matchTA .box .title {
+  font-size: 40px;
+}
+
+.matchTA .box .upload {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 5px auto;
+}
+
+.matchTA .box button {
+  margin-top: 10px;
+}
+
+.matchTA .box .error {
+  font-size: 15px;
+  margin: 5px 0 0 0;
+  display: none;
+  color: red;
+}
+
+.matchTA .box .result {
+  margin: 20px 0;
+}
+
+.matchTA .box .result p {
+  margin: 3px 0;
+}
+
+.dashboard {
+  padding: 0 10vw;
+}
+
+.dashboard .dash-button {
+  background-color: #0C2D48;
+  font-size: 5vh;
+  font-weight: bold;
+  text-align: center;
+  color: #ddd;
+  height: 20vh;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.dashboard .dash-button:hover {
+  background-color: #5b6993;
+  font-size: 5.5vh;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

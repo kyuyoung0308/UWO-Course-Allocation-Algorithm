@@ -1,0 +1,11 @@
+"0","1","2","3","4","5","6"
+"Course Code","Applicant Name","applicant email","Applicant status ( 1- Fundable, 2-NotFundable,3-External)","5or10 hrs","Course Rank","Professor Rank"
+"SE123","Alice","alice@uwo.ca",1,5,1,
+"ECE456","Alice","alice@uwo.ca",1,5,2,
+"ES678","Alice","alice@uwo.ca",1,5,3,
+"SE123","Bob","bob@uwo.ca",2,10,2,
+"ECE456","Bob","bob@uwo.ca",2,10,1,
+"SE123","Charles","charles@uwo.ca",3,10,1,
+"ECE456","Charles","charles@uwo.ca",3,10,2,
+"ECE456","Derek","derek@uwo.ca",2,5,1,
+"ES678","Derek","derek@uwo.ca",2,5,2,

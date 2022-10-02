@@ -1,0 +1,5 @@
+"0","1","2","3","4","5"
+"Course Code","Hours to Fill","TAs (TA then Hour)",,,
+"SE123",24,"alice@uwo.ca",5,"bob@uwo.ca",10
+"ECE456",44,"derek@uwo.ca",5,"charles@uwo.ca",10
+"ES678",16,,,,
